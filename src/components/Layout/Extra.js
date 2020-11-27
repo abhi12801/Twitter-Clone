@@ -68,7 +68,7 @@ function Extra() {
 
                         <div style={{ textAlign: "center" }}>
                             {!whoFollow && <Loading />}
-                            {whoFollow?.length === 0 && 'Takip edecek başka biri kalmadı .'}
+                            {whoFollow?.length === 0 && 'Follow Them To See Others Posts ..'}
                         </div>
                     </List>
                 }

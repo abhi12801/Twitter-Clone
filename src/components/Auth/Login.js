@@ -57,12 +57,12 @@ function Login({ setAuth }) {
                 <div className="auth-page__logo">
                     <Button icon><Twitter /></Button>
                 </div>
-                <TextTitle title style={{ fontSize: "23px", marginBottom: "5px" }}>Twitter'a giriş yap</TextTitle>
+                <TextTitle title style={{ fontSize: "23px", marginBottom: "5px" }}>"Login to Twitter"</TextTitle>
 
                 <div className="form-control">
                     <input
                         type="text"
-                        placeholder="Kullanıcı Adı"
+                        placeholder="username"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
                     />
@@ -70,7 +70,7 @@ function Login({ setAuth }) {
                 <div className="form-control" style={{ marginBottom: "15px" }}>
                     <input
                         type="password"
-                        placeholder="Şifre"
+                        placeholder="password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />

@@ -62,12 +62,12 @@ function Register({ setAuth }) {
                 <div className="auth-page__logo">
                     <Button icon><Twitter /></Button>
                 </div>
-                <TextTitle title style={{ fontSize: "23px", marginBottom: "5px" }}>Twitter'a kayıt ol</TextTitle>
+                <TextTitle title style={{ fontSize: "23px", marginBottom: "5px" }}>Register on Twitter</TextTitle>
 
                 <div className="form-control">
                     <input
                         type="text"
-                        placeholder="Kullanıcı Adı"
+                        placeholder="User name"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
                     />
@@ -75,7 +75,7 @@ function Register({ setAuth }) {
                 <div className="form-control" style={{ marginBottom: "15px" }}>
                     <input
                         type="password"
-                        placeholder="Şifre"
+                        placeholder="password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />
