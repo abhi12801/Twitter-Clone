@@ -62,7 +62,7 @@ function Login({ setAuth }) {
                 <div className="form-control">
                     <input
                         type="text"
-                        placeholder="username"
+                        placeholder="Username"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
                     />
@@ -70,7 +70,7 @@ function Login({ setAuth }) {
                 <div className="form-control" style={{ marginBottom: "15px" }}>
                     <input
                         type="password"
-                        placeholder="password"
+                        placeholder="Password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />
