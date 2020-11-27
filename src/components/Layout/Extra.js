@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { useHistory, useLocation as locations } from "react-router-dom";
 
 import './Extra.css'
@@ -11,7 +11,6 @@ import Loading from '../loading'
 import { Options } from '../icons'
 import SearchBox from '../SearchBox/SearchBox'
 
-import { UserContext } from '../../context/UserContext'
 import { FeedContext } from '../../context/FeedContext'
 
 function Extra() {

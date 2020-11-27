@@ -57,7 +57,7 @@ function Login({ setAuth }) {
                 <div className="auth-page__logo">
                     <Button icon><Twitter /></Button>
                 </div>
-                <TextTitle title style={{ fontSize: "23px", marginBottom: "5px" }}>"Login to Twitter"</TextTitle>
+                <TextTitle title style={{ fontSize: "23px", marginBottom: "5px" }}>Login to Twitter</TextTitle>
 
                 <div className="form-control">
                     <input

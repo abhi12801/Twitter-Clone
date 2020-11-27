@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useHistory, Link, NavLink } from 'react-router-dom'
+import { useHistory, Link } from 'react-router-dom'
 
 import { client, timeSince } from '../../utils'
 

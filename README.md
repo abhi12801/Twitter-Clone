@@ -1,24 +1,7 @@
 ## Twitter Clone Frontend
- - Live: https://twitter-frontend.vercel.app/
+ - Live: 
 
-Twitter clone using MERN stack (Mongo, Express, React, Node).
-
-This is the frontend repository, built with React. If you are looking for the backend repository, [click here](https://github.com/scozdev/twitter-backend)
-
-## :rocket: Tech Stack
-
-- ReactJs
-- Storybook
-- NodeJs
-- Express
-- MongoDB
-- Mongoose
-
-## :warning: Prerequisite
-
-- node
-- npm
-- mongodb
+Twitter clone UI built using ReactJS.
 
 ## :scroll: Todo
 

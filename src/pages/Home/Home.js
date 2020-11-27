@@ -59,7 +59,7 @@ function Home() {
             }
 
 
-            { feed && feed.length == 0 && !loading && (
+            { feed && feed.length === 0 && !loading && (
                 <div className="loading">
                     <TextTitle>Follow Them To See Others Posts ..</TextTitle>
                 </div>

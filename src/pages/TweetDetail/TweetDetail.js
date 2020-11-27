@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useHistory, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { toast } from 'react-toastify';
 
 import { client } from '../../utils';
@@ -12,13 +12,13 @@ import SearchBox from '../../components/SearchBox/SearchBox';
 import Comment from '../../components/Comment/Comment';
 
 
-function TweetDetail({ }) {
+// eslint-disable-next-line no-empty-pattern
+function TweetDetail({}) {
     const params = useParams()
 
     const [tweet, setTweet] = useState(null);
     const [comments, setComments] = useState(null);
     const [commentText, setCommentText] = useState("");
-
 
     const handleAddComment = (e) => {
         if (e.key === 'Enter') {
